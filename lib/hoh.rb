@@ -55,28 +55,15 @@ def naming_system
              sub_category: {
                label: "Genus",
                sub_category: {
-                 label: "Order",
-                 sub_category: 
+                 label: "Species",
+                 sub_category: nil
                }
              }
            }
-# }
-#     }
-#   }
-# }
-# 
-# PORTION_2 = 
-# 
-# PORTION_3 = {
-#   label: "Family",
-#   sub_category: {
-#     label: "Genus",
-#   }
-# }
-# 
-# PORTION_4 = {
-#   label: "Species",
-#   sub_category: nil
-# }
+        }
+     }
+   }
+  }
+  return hoh
 
 end
